@@ -29,7 +29,7 @@ DHPARAM=$(openssl dhparam 2048 | base64 | tr -d '\n' )
 NAMESPACE=${NAMESPACE:-default}
 TYPE=${TYPE:-Opaque}
 
-cat << EOF | kubectl apply -f -
+cat << EOF | kubectl apply --validate=false -f -
 {
  "apiVersion": "v1",
  "kind": "Secret",

@@ -1,4 +1,8 @@
-# 0.1.0
+# 0.1.2
+
+- Validation set when saving certificates
+
+# 0.1.1
 
 - Upgrade kubectl to 1.17.15
 

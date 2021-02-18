@@ -18,4 +18,4 @@ jobs:
           username: grapevinedev
           password: ${{ secrets.DOCKER_HUB_PASSWORD }}
           repository: grapevineai/letsencrypt
-          tags: latest,0.1.1
+          tags: latest,0.1.2
