@@ -1,5 +1,9 @@
 # 0.1.0
 
+- Upgrade kubectl to 1.17.15
+
+# 0.1.0
+
  - Upgrade kubectl to 1.3.6
  
 # 0.0.9

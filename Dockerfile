@@ -1,7 +1,7 @@
 FROM nginx:alpine
 
 ARG S6_OVERLAY_VER=1.17.2.0
-ARG K8S_VER=v1.5.1
+ARG K8S_VER=v1.17.15
 
 RUN apk add --no-cache git make curl wget bc bash openssl certbot
 
